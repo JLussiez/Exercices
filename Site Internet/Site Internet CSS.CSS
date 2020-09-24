@@ -6,4 +6,10 @@
         height:5000px;
     background-color:#808080;
 } 
+
+body {
+    color:black;
+    background-color:white;
+    background-image:url(images/image_de_fond.png);
+    }
     
