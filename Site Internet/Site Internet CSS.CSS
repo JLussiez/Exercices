@@ -1,15 +1,18 @@
-#menu {
-    position: relative;
-        top:-300px;
-        width:150px;
-        left:-10px;
-        height:5000px;
-    background-color:#808080;
-} 
-
 body {
     color:black;
     background-color:white;
-    background-image:url(images/image_de_fond.png);
+    background-image:url(arch\ enemy.png);
+    background-size: cover;    
+}
+@font-face {
+font-family: "chernobyl";
+src: url("Chernobyl.otf");
+}
+html {
+    font-family: "chernobyl";
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 300%;
     }
-    
