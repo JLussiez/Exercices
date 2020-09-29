@@ -1,7 +1,7 @@
 body {
-    color:black;
+    color:white;
     background-color:white;
-    background-image:url(arch\ enemy.png);
+    background-image:url(AEimage1.jpg);
     background-size: cover;    
 }
 @font-face {
@@ -12,7 +12,27 @@ html {
     font-family: "chernobyl";
     font-size: 200%;
 }
-
+#Header {
+    display: inline-block;
+    width: 100%;
+}
 h1 {
-    font-size: 250%;
+    font-size: 200%;
+    display: inline;
     }
+
+#menu {
+    display: inline-block;
+    width: 50%;
+}
+#menu, #menu li{
+    list-style:none ;
+    text-align: center;
+}
+#menu li{
+    display:inline-block;
+    position: relative;
+
+    margin-left:2%;
+    margin-right:2%;
+}
