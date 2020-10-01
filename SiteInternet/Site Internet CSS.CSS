@@ -14,13 +14,12 @@ html {
 }
 #Header {
     display: inline-block;
-    width: 100%;
+    width: 150%;
 }
 h1 {
-    font-size: 200%;
+    font-size: 180%;
     display: inline;
-    }
-
+}
 #menu {
     display: inline-block;
     width: 50%;
@@ -32,7 +31,6 @@ h1 {
 #menu li{
     display:inline-block;
     position: relative;
-
     margin-left:2%;
     margin-right:2%;
 }
