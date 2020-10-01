@@ -36,6 +36,7 @@ h1 {
     margin-left:2%;
     margin-right:2%;
 }
-#menu {
+#menu a{
     text-decoration: none;
+    color:white;
 }
