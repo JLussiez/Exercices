@@ -1,8 +1,6 @@
 body {
     color:white;
-    background-color:white;
-    background-image:url(AEimage1.jpg);
-    background-size: cover;    
+    background-color:black;
 }
 @font-face {
 font-family: "chernobyl";
@@ -17,7 +15,7 @@ html {
     width: 150%;
 }
 h1 {
-    font-size: 180%;
+    font-size: 170%;
     display: inline;
 }
 #menu {
