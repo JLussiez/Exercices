@@ -1,0 +1,40 @@
+body {
+    color:white;
+    background-color:white;
+    background-image:url(AEimage1.jpg);
+    background-size: cover;    
+}
+@font-face {
+font-family: "chernobyl";
+src: url("Chernobyl.otf");
+}
+html {
+    font-family: "chernobyl";
+    font-size: 200%;
+}
+#Header {
+    display: inline-block;
+    width: 150%;
+}
+h1 {
+    font-size: 180%;
+    display: inline;
+}
+#menu {
+    display: inline-block;
+    width: 50%;
+}
+#menu, #menu li{
+    list-style:none ;
+    text-align: center;
+}
+#menu li{
+    display:inline-block;
+    position: relative;
+    margin-left:2%;
+    margin-right:2%;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+}
