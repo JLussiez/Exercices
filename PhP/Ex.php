@@ -3,8 +3,12 @@
     </head>
     <body>
         <?php 
-        for ($sg4=0;$sg4<100; ++$sg4)
-        echo "<div> $sg4 </div>";
+   $ex1 = 16;
+   $ex2 = 15.5;
+   $ex3 = 6;
+   $ex4 = 20;
+   $moyenne = ($ex1+$ex2+$ex3+$ex4)/4;
+   echo 'La moyenne est de '.$moyenne.' / 20.';
         ?>
     </body>
 <html>
