@@ -15,15 +15,4 @@ for ($i = 0; $i < 5; $i++)
         </tr>");
 }
 echo ("</table>");
-
-
-
-
-
-
-
-
-
-
-
 highlight_file(__FILE__);
