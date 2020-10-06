@@ -8,27 +8,27 @@ src: url("Chernobyl.otf");
 }
 html {
     font-family: "chernobyl";
-    font-size: 200%;
+    font-size: 180%;
 }
 #Header {
     display: inline-block;
-    width: 150%;
+    width: 100%;
 }
 h1 {
-    font-size: 170%;
+    font-size: 180%;
     display: inline;
 }
 #menu {
     display: inline-block;
-    width: 50%;
+    width: 70%;
 }
 #menu, #menu li{
     list-style:none ;
-    text-align: center;
+    text-align:center;
 }
 #menu li{
     display:inline-block;
-    position: relative;
+    position:relative;
     margin-left:2%;
     margin-right:2%;
 }

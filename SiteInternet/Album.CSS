@@ -1,8 +1,6 @@
 body {
     color:white;
-    background-color:white;
-    background-image:url(AEimage1.jpg);
-    background-size: cover;    
+    background-color:black;   
 }
 @font-face {
 font-family: "chernobyl";
@@ -10,11 +8,12 @@ src: url("Chernobyl.otf");
 }
 html {
     font-family: "chernobyl";
-    font-size: 200%;
+    font-size: 180%;
 }
 #Header {
     display: inline-block;
-    width: 150%;
+    width: 100%;
+    margin-bottom: 2%;
 }
 h1 {
     font-size: 180%;
@@ -22,15 +21,15 @@ h1 {
 }
 #menu {
     display: inline-block;
-    width: 50%;
+    width: 70%;
 }
 #menu, #menu li{
     list-style:none ;
-    text-align: center;
+    text-align:center;
 }
 #menu li{
     display:inline-block;
-    position: relative;
+    position:relative;
     margin-left:2%;
     margin-right:2%;
 }
