@@ -1,10 +1,10 @@
 <head>
-	<title>Résolution de polynômes du second degré (ax² + bx + c)</title>
+	<title>Résolution d'équations du second degré (ax² + bx + c)</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 </head>
 <body>
-<form method="post" action="delta.php" enctype="multipart/form-data">
-	<table style="width:350px; font-family:verdana; font-size:11px; border:1px dashed;">
+<form method="post" action="Ex4.php" enctype="multipart/form-data">
+	<table>
 		<tr>
 			<td>Renseignez les données ci-dessous<br /><br /></td>
 		</tr>
@@ -36,11 +36,11 @@ if (isset($_POST['a_value']) || isset($_POST['b_value']) || isset($_POST['c_valu
 	$delta = ($b_value*$b_value)-4*$a_value*$c_value;
 	
 	if ($delta<0) {
-		echo '<p style="font-family:verdana; color:red; font-size:12px;">Delta inférieur à zéro, <b>calcul impossible</b></p>';
+		echo 'Delta inférieur à zéro, <b>calcul impossible</b></p>';
 	} elseif ($delta>0) {
 		?>
 
-<table style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; width:400px; border:1px solid;">
+<table>
 	<tr>
 		<td>a = <?php echo $a_value; ?> || b = <?php echo $b_value; ?> || c = <?php echo $c_value; ?> || <b>Delta = <?php echo $delta; ?></b><br /></td>
 	</tr>
@@ -67,7 +67,7 @@ if (isset($_POST['a_value']) || isset($_POST['b_value']) || isset($_POST['c_valu
 	} elseif ($delta==0) {
 ?>
 
-<table style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; width:400px; border:1px solid;">
+<table>
 	<tr>
 		<td>a = <?php echo $a_value; ?> || b = <?php echo $b_value; ?> || c = <?php echo $c_value; ?> || <b>Delta = <?php echo $delta; ?></b><br /></td>
 	</tr>
