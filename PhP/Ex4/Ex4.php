@@ -1,93 +1,31 @@
-<head>
-	<title>Résolution d'équations du second degré (ax² + bx + c)</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-</head>
-<body>
-<form method="post" action="Ex4.php" enctype="multipart/form-data">
-	<table>
-		<tr>
-			<td>Renseignez les données ci-dessous<br /><br /></td>
-		</tr>
-		<tr>
-			<td>&nbsp;&nbsp;<b>a</b>x²</td>
-			<td style="width:65%"><b>a = </b><input type="text" value="" name="a_value"><br/></td>
-		</tr>
-		<tr>
-			<td>&nbsp;&nbsp;<b>b</b>x</td>
-			<td style="width:65%"><b>b = </b><input type="text" value="" name="b_value"><br /></td>
-		</tr>
-		<tr>
-			<td>&nbsp;&nbsp;<b>c</b></td>
-			<td style="width:65%"><b>c = </b><input type="text" value="" name="c_value"><br /></td>
-		</tr>
-		<tr>
-			<td><input type="submit" value="Calculer !"></td>
-		</tr>
-	</table>
-</form>
-
 <?php
 
-if (isset($_POST['a_value']) || isset($_POST['b_value']) || isset($_POST['c_value'])) {
-	$a_value = htmlentities($_POST['a_value']);
-	$b_value = htmlentities($_POST['b_value']);
-	$c_value = htmlentities($_POST['c_value']);
+  function racines($a, $b, $c) {
 
-	$delta = ($b_value*$b_value)-4*$a_value*$c_value;
-	
-	if ($delta<0) {
-		echo 'Delta inférieur à zéro, <b>calcul impossible</b></p>';
-	} elseif ($delta>0) {
-		?>
+    echo "Recherche des solutions de l'équation $a x² + $b x + $c<br>";
 
-<table>
-	<tr>
-		<td>a = <?php echo $a_value; ?> || b = <?php echo $b_value; ?> || c = <?php echo $c_value; ?> || <b>Delta = <?php echo $delta; ?></b><br /></td>
-	</tr>
-	<tr>
-		<td>Il y a deux <b>solutions différentes</b><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp; x = </td>
-		<td> - <?php echo $b_value; ?> - RAC_<?php echo $delta; ?><br />-----------------------------<br />   2*<?php echo $a_value; ?><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp;<b> x1 = <?php $sol_1 = (-$b_value-sqrt($delta))/(2*$a_value); echo $sol_1; ?></b><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp; x = </td>
-		<td> - <?php echo $b_value; ?> + RAC_<?php echo $delta; ?><br />-----------------------------<br />   2*<?php echo $a_value; ?><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp;<b> x2 = <?php $sol_2 = (-$b_value+sqrt($delta))/(2*$a_value); echo $sol_2; ?></b><br /><br /></td>
-	</tr>
-</table>
+    $delta = $b*$b - (4 * $a * $c);
 
-<?php
-	} elseif ($delta==0) {
-?>
+    if ($delta < 0)
 
-<table>
-	<tr>
-		<td>a = <?php echo $a_value; ?> || b = <?php echo $b_value; ?> || c = <?php echo $c_value; ?> || <b>Delta = <?php echo $delta; ?></b><br /></td>
-	</tr>
-	<tr>
-		<td>Il y a une <b>solution unique</b><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp; x = </td>
-		<td> - <?php echo $b_value; ?> - RAC_<?php echo $delta; ?><br />-----------------------------<br />   2*<?php echo $a_value; ?><br /><br /></td>
-	</tr>
-	<tr>
-		<td>&nbsp;&nbsp;<b> x = <?php $sol_unique = (-$b_value-sqrt($delta))/(2*$a_value); echo $sol_unique; ?></b><br /><br /></td>
-	</tr>
-</table>
+      echo "Cette équation n'a pas de solution.";
 
-<?php
-	}
-}
-	
-?>
+    if ($delta == 0)
 
-</body>
-</html>
+      echo "Cette équation a une racine double égale à ".-$b/(2*$a);
+
+    if ($delta > 0){
+
+      $racine1 = (-$b - sqrt($delta))/(2*$a);
+
+      $racine2 = (-$b + sqrt($delta))/(2*$a);
+
+      echo "Cette équation a deux racines : $racine1 et $racine2";
+
+    }
+
+  }
+
+  racines(5, 8, 9);
+
+  highlight_file(__FILE__);
