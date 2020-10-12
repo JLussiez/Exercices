@@ -13,3 +13,6 @@ border: solid black 1px;
 div#titres{
 margin: 3%;
 }
+div#haut{
+    text-align:center;
+}
