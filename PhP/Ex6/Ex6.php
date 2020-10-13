@@ -6,7 +6,6 @@
  <p><input type="submit" value="OK"></p>
 
 </form>
-
 <?php
 
 highlight_file(__FILE__);
