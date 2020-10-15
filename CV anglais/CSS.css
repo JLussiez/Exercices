@@ -1,7 +1,7 @@
 body {
     background-color: #dadada70 }
     html {
-        padding: 7%;
+        padding: 6%;
         background: rgba(153, 0, 0,1);
     background: linear-gradient(0deg, rgba(153, 0, 51,1) 0%, rgba(153, 0, 51,1) 40%, rgba(153, 0, 0,1) 60%, rgba(153, 0, 51,1) 100%);
     font-size: 120%;
@@ -11,7 +11,7 @@ background-color: azure;
 border: solid black 1px;
 }
 div#titres{
-margin: 3%;
+margin: 4%;
 }
 div#haut{
     text-align:center;
