@@ -1,6 +1,4 @@
-body {
-    background-color: #dadada70 }
-    html {
+html {
         padding: 6%;
         background: rgba(153, 0, 0,1);
     background: linear-gradient(0deg, rgba(153, 0, 51,1) 0%, rgba(153, 0, 51,1) 40%, rgba(153, 0, 0,1) 60%, rgba(153, 0, 51,1) 100%);
