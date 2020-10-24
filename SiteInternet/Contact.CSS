@@ -1,6 +1,6 @@
 body {
     color:white;
-    background-color:black;
+    background-color:black;   
 }
 @font-face {
 font-family: "chernobyl";
@@ -13,14 +13,15 @@ html {
 #Header {
     display: inline-block;
     width: 100%;
+    margin-bottom: 2%;
 }
 h1 {
-    font-size: 180%;
+    font-size: 140%;
     display: inline;
 }
 #menu {
     display: inline-block;
-    width: 70%;
+    width: 85%;
 }
 #menu, #menu li{
     list-style:none ;
@@ -29,8 +30,7 @@ h1 {
 #menu li{
     display:inline-block;
     position:relative;
-    margin-left:4%;
-    margin-right:4%;
+    margin-left:7%;
 }
 #menu a{
     text-decoration: none;
