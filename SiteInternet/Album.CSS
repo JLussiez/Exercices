@@ -41,5 +41,6 @@ h1 {
 }
 #Contenu {
     margin-left: 2%;
-    width:100%;
+    width:90%;
+    position:relative;
 }
