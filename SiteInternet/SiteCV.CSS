@@ -38,14 +38,28 @@ h1 {
 #anglais {
     position:relative;
     float:right;
-    top:50px;
-    left:-200px;
+    top:250px;
+    left:-100px;
     height:150px;
 }
 #français {
     position:relative;
     float:left;
-    top:50px;
+    top:250px;
     left:100px;
+    height:150px;
+}
+#français1 {
+    position:relative;
+    float:left;
+    top:275px;
+    left:180px;
+    height:150px
+}
+#anglais1 {
+    position:relative;
+    float:right;
+    top:275px;
+    left:-180px;
     height:150px;
 }
