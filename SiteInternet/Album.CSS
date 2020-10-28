@@ -38,9 +38,13 @@ h1 {
 }
 #TexteA {
     font-size: 85%;
+    color:rgb( 255, 236, 232);
 }
 #Contenu {
-    margin-left: 2%;
+    margin-left: 3%;
     width:90%;
     position:relative;
+}
+#titres{  
+    color:rgb(153, 183, 235);
 }
