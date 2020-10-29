@@ -35,3 +35,44 @@ h1 {
     text-decoration: none;
     color:white;
 }
+#Texte1{
+    position:relative;
+    top:40px;
+    font-size:90%;
+    color:blue;
+}
+#Michael {
+    margin-left: 5%;
+    width:20%;
+    position:relative;
+    color:red;
+    top:80px;
+}
+#Daniel {
+    margin-left: 38%;
+    width:20%;
+    position:relative;
+    color:yellow;
+    top:17px;
+}
+#Sharlee {
+    margin-left: 75%;
+    width:20%;
+    position:relative;
+    color:green;
+    top:-46px;
+}
+#Alissa {
+    margin-left: 3%;
+    width:20%;
+    position:relative;
+    color:pink;
+    top:80px;
+}
+#Jeff {
+    margin-left: 3%;
+    width:20%;
+    position:relative;
+    color:purple;
+    top:80px;
+}
