@@ -13,6 +13,9 @@ html {
 #Header {
     display: inline-block;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    font-size:88%;
 }
 h1 {
     font-size: 140%;
@@ -31,9 +34,13 @@ h1 {
     position:relative;
     margin-left:7%;
 }
-#menu a{
+#menu a {
     text-decoration: none;
-    color:white;
+    color: black;
+}
+#menu a:hover {
+    text-decoration: none;
+    color: white;
 }
 #Texte1{
     position:relative;
