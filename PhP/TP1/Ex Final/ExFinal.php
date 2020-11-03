@@ -12,9 +12,13 @@ echo('
 
 </form> ');
 
-echo (' <form action=session_unset ( ) : bool;><p><input type="submit" value="Reset"></p>');
+echo (' <form action=session_destroy();> <p><input type="submit" value="OK"></p>');
 
-session_unset(); 
+if (session_destroy()) {
+    echo 'Session détruite !';
+} else {
+    echo 'Erreur : impossible de détruire la session !';
+}
 
 
 highlight_file(__FILE__);
