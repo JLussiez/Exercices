@@ -10,3 +10,4 @@ echo('<link rel="stylesheet" href="php.css" type="text/css">');
              echo('<div class="pair"> '.$NombreAleatoire.' est pair</div>');
         }
 highlight_file(__FILE__);
+?>
