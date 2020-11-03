@@ -13,5 +13,6 @@ echo('
  <p><input type="submit" value="Se connecter"></p>
 
 </form> ');
+
 highlight_file(__FILE__);
 ?>
