@@ -1,12 +1,12 @@
 html {
-        padding: 6%;
+        padding: 6%;/* la ligne du dessous sert à appliquer un contour à la div contenu */
     background: linear-gradient(0deg, rgb(155, 32, 73) 0%, rgb(187, 1, 63) 40%, rgb(189, 0, 0) 60%, rgba(153, 0, 51,1) 100%);
     font-size: 120%;
 }
-div#contenu{
+div#contenu{/* division du milieu pour faire contraste avec le contour */
 background-color: azure;
 border: solid black 1px;
 }
-div#titres{
+div#titres{/* division pour les titres */
 margin: 4%;
 }
