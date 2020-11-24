@@ -1,7 +1,7 @@
 <?php echo "Bonjour, "; 
 
 
-try{
+try{ 
 
     $Base = new PDO('mysql:host=192.168.65.60; dbname=TP2Exo2_Julien; charset=utf8','TestPDO', 'PDO');
     echo "je suis connecté";
