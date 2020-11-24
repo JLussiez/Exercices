@@ -11,7 +11,7 @@
     <div>
         <h1>Exercice :</h1>
         <?php
-            if(form("formulaire","azerty")=="ok")
+            if(form("1234","azerty")=="ok")
             {
                 echo"Bienvenue";
                 ?><div><a href="">Lien secret</a></div><?php

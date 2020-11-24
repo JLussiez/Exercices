@@ -1,6 +1,6 @@
 <?php
     $password="azerty";
-    $Login="Formulaire";
+    $Login="1234";
     function form($Login,$password) {
         ?>
         <form action="" method="post">
